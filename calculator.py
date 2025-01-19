@@ -1,7 +1,12 @@
 # bhavesh-multi,divide
 #addition subtraction -himanshu
 #harsh -power
-
+add_minus
+def add(a,b) :
+    return print(f"Addition of {a} and {b} is {a+b}")
+ 
+def sub(a,b) :
+    return print(f"Subtraction of {a} and {b} is {a-b}")
 
 
 def power():
@@ -28,5 +33,4 @@ if(num==3):
 # elif(num==2):
 #     bhavesh(2):
 # else()
-    
-
+ 
