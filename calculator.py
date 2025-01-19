@@ -1,6 +1,16 @@
 # bhavesh-multi,divide
 #addition subtraction -himanshu
 #harsh -power
+bhavesh
+
+def multi(a,b) :
+    return print(f"Multiplication = {a*b}")
+
+def divide(a,b) : 
+        return print(f"Division = {a/b}")
+
+
+
 add_minus
 def add(a,b) :
     return print(f"Addition of {a} and {b} is {a+b}")
@@ -34,3 +44,4 @@ if(num==3):
 #     bhavesh(2):
 # else()
  
+
