@@ -1,6 +1,7 @@
 # bhavesh-multi,divide
 #addition subtraction -himanshu
 #harsh -power
+
 def multi() :
     a = float(input("enter first number: "))
     b = float(input("enter second number: "))
@@ -14,6 +15,16 @@ def divide() :
         print("Denominator cannot be zero")
         b = float(input("enter denominator : "))
         return print(f"Division = {a/b}")
+
+
+
+add_minus
+def add(a,b) :
+    return print(f"Addition of {a} and {b} is {a+b}")
+ 
+def sub(a,b) :
+    return print(f"Subtraction of {a} and {b} is {a-b}")
+
 
 
 def power():
@@ -35,6 +46,7 @@ def power():
 num=int(input("enter 1 if you want to ADDITION OR SUBTRACTION :: \nenter 2 if you want to MULTIPLICATION OR DIVISION ::\nenter 3 if you want to find POWER ::  \n"))
 if(num==5):
     power()
+
 elif(num==2):
     sub(1)
 elif(num==3):
@@ -42,4 +54,11 @@ elif(num==3):
 elif(num ==4):
     divide()
     
+
+# elif(num==1):
+#     sub(1)
+# elif(num==2):
+#     bhavesh(2):
+# else()
+
 
