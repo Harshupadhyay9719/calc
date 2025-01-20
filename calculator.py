@@ -1,6 +1,16 @@
 # bhavesh-multi,divide
 #addition subtraction -himanshu
 #harsh -power
+bhavesh
+
+def multi(a,b) :
+    return print(f"Multiplication = {a*b}")
+
+def divide(a,b) : 
+        return print(f"Division = {a/b}")
+
+
+
 add_minus
 def add():
      a=float(input("enter the first number : "))
@@ -9,6 +19,7 @@ def add():
  
 def sub(a,b) :
      print(f"Subtraction of {a} and {b} is {a-b}")
+
 
 
 def power():
@@ -27,17 +38,13 @@ def power():
         for i in range(0,int(b)):
             c=c*a
         print(a)
-num=int(input("enter 1 if you want to ADDITION and 2 for SUBTRACTION :: \nenter 3 if you want to MULTIPLICATION and 4 for DIVISION ::\nenter 5 if you want to find POWER ::  \n"))
-if(num==5):
+num=int(input("enter 1 if you want to ADDITION OR SUBTRACTION :: \nenter 2 if you want to MULTIPLICATION OR DIVISION ::\nenter 3 if you want to find POWER ::  \n"))
+if(num==3):
     power()
-elif(num==1):
-     add()
-elif(num==2):
-    sub()
-elif(num==3):
-    multi()
-elif(num==4):
-    divide()
-else:
-    print("BUND MARAO")
+# elif(num==1):
+#     sub(1)
+# elif(num==2):
+#     bhavesh(2):
+# else()
  
+
