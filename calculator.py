@@ -8,6 +8,9 @@ def add():
      print(f"Addition of {a} and {b} is {a+b}")
  
 def sub(a,b) :
+     a = float(input("enter the first number : "))       
+     b = float(input("enter the second number : "))
+          
      print(f"Subtraction of {a} and {b} is {a-b}")
 
 
